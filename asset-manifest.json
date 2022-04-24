@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my-react-page/static/css/main.cd285a76.css",
+    "main.js": "/my-react-page/static/js/main.29c44af3.js",
+    "static/media/image5.png": "/my-react-page/static/media/image5.6ec65b37dabc69a56b56.png",
+    "static/media/image2.png": "/my-react-page/static/media/image2.c95950e5a2339ad9fca1.png",
+    "static/media/image6.png": "/my-react-page/static/media/image6.a17d417a0048372a9d8f.png",
+    "static/media/image1.png": "/my-react-page/static/media/image1.fd8a68726f888f34b1ca.png",
+    "static/media/image3.png": "/my-react-page/static/media/image3.a7fcfd5ae3a25bc9abb8.png",
+    "static/media/blackboard-background-fade-half-1500.jpg": "/my-react-page/static/media/blackboard-background-fade-half-1500.013128167714de3c29c0.jpg",
+    "static/media/graham-holtshausen-fUnfEz3VLv4-unsplash.webp": "/my-react-page/static/media/graham-holtshausen-fUnfEz3VLv4-unsplash.5f09efc69c263f10ee2b.webp",
+    "static/media/image4.png": "/my-react-page/static/media/image4.772b25ec27e11827176f.png",
+    "static/media/computer-web.jpg": "/my-react-page/static/media/computer-web.e4f15114f9b8629b0b09.jpg",
+    "static/media/logo.png": "/my-react-page/static/media/logo.9a117414eb5fd66efda6.png",
+    "static/media/blue-bokeh-effect-black-background-sparkling-magical-particles_370567-89.jpg": "/my-react-page/static/media/blue-bokeh-effect-black-background-sparkling-magical-particles_370567-89.5bb1da79b54f7ecb0a78.jpg",
+    "static/media/img4.png": "/my-react-page/static/media/img4.bd8095bcdbbf0b44b606.png",
+    "static/media/img6.png": "/my-react-page/static/media/img6.869d992cd6733f712fd1.png",
+    "index.html": "/my-react-page/index.html",
+    "main.cd285a76.css.map": "/my-react-page/static/css/main.cd285a76.css.map",
+    "main.29c44af3.js.map": "/my-react-page/static/js/main.29c44af3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd285a76.css",
+    "static/js/main.29c44af3.js"
+  ]
+}
