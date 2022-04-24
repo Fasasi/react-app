@@ -30,6 +30,9 @@ body {
   position: fixed;
   width: 100%;
 }
+.handBurger{
+  display: none;
+}
 .main-text{
   background: url(./images/graham-holtshausen-fUnfEz3VLv4-unsplash.webp);
   height: 400px;

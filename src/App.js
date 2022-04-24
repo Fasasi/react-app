@@ -1,5 +1,5 @@
 import Home from "./components/Home";
-import style from "./style.css";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MyPage from "./components/MyPage";
 import Ecourses from "./components/Ecourses";
@@ -24,7 +24,7 @@ const App = () => {
   });
 
   return (
-    <Router className="maxwidth">
+    <Router>
       <Nav />
       <Routes>
         <Route path="/"  className="homepage" element={<Home />} />
