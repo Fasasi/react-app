@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <><div className="main-text">
         <div className="nav-text">
-          <h2>LEARNING IS AN EXPERIENCE. EVERYTHING ELSE IS JUST INFORMATION.</h2>
+          <h2>LEARNING IS AN EXPERIENCE. <br />EVERYTHING ELSE IS JUST INFORMATION.</h2>
           <p>Albert Einstein</p>
         </div>
       </div><div className="why-wrapper">
