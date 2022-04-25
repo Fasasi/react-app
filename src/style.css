@@ -147,7 +147,7 @@ body {
   background-size: cover;
   height: 1100px;
   padding-top: 3rem;
-  padding-left: 20rem;
+  /* padding-left: 20rem; */
   /* padding-right: 15rem; */
 }
 .what .what-we-do {
@@ -155,12 +155,15 @@ body {
   color: #46c2e7;
   font-size: 1.5rem;
   animation: nav 3s 1;
+
 }
 .what p {
   color: #eeeef0;
   padding-bottom: 2rem;
   font-size: 1.1rem;
   line-height: 1.5;
+  padding-right: 15rem;
+  padding-left: 20rem;
 }
 .icons-wrapper {
   display: flex;
