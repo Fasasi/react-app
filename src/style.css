@@ -147,8 +147,6 @@ body {
   background-size: cover;
   height: 1100px;
   padding-top: 3rem;
-  /* padding-left: 20rem; */
-  /* padding-right: 15rem; */
 }
 .what .what-we-do {
   padding-bottom: 2rem;
@@ -198,11 +196,11 @@ body {
 }
 
 .mark-box {
-  padding-left: 1rem;
+  padding-left: 4rem;
   margin-bottom: 5rem;
 }
 .camera-box {
-  padding-left: 2rem;
+  padding-left: 4rem;
   margin-bottom: 5rem;
 }
 .comp-box {
