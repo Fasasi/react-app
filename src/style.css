@@ -195,29 +195,30 @@ body {
 }
 
 .mark-box {
-  /* padding-left: 1rem; */
+  padding-left: 1rem;
   margin-bottom: 5rem;
 }
 .camera-box {
-  /* padding-left: 2rem; */
+  padding-left: 2rem;
   margin-bottom: 5rem;
 }
 .comp-box {
-  /* padding-left: 2rem; */
+  padding-left: 2rem;
   margin-bottom: 5rem;
 }
 .doc-box {
-  /* padding-left: 5rem; */
+  padding-left: 5rem;
   margin-bottom: 5rem;
 }
 
 .icons-wrapper p {
   color: #eeeef0;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-weight: 600;
   margin-left: 3rem;
   margin-bottom: 5rem;
+  letter-spacing: 5px;
 }
 .take-look {
   margin-top: 5rem;
