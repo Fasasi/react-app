@@ -3,6 +3,7 @@ import { GiCheckMark } from "react-icons/gi";
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";
 import { BsCameraReels } from "react-icons/bs";
 import { RiComputerLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 import img1 from "../images/img1.png"
 import img2 from "../images/img2.png"
 import img3 from "../images/img3.png"
@@ -31,7 +32,7 @@ const Home = () => {
               learning that moves beyond the ordinary and promotes memorable
               learning experiences.
             </p>
-            <a href="#">Learn More</a>
+            <Link to="/about" className="link">Learn More</Link>
           </div>
           <div className="why-image"></div>
         </div>
@@ -83,10 +84,10 @@ const Home = () => {
         <p className="h2">TAKE A LOOK AT OUR WORK</p>
         <div className="button">
           <p className="ecourse">
-            <a href="#">E-Courses</a>
+          <Link to="/ecourse" className="link">E-Course</Link>
           </p>
           <p className="video">
-            <a href="#">videos</a>
+          <Link to="/ecourse" className="link">video</Link>
           </p>
         </div>
       </div>
