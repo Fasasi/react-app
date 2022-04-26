@@ -491,16 +491,102 @@ hr{
     
   }
   .why-image {
-    display: block;
-    background-image: url(./images/computer-web.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
+    height: 280px;
     width: 100rem;
-    margin-top: 4rem;
     margin-right: 2rem;
-    margin-bottom: 4rem;
   }
+  .what p {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .mark-box {
+  padding-left: 5rem;
+}
+.camera-box {
+  padding-left: 6rem;
+}
+.comp-box {
+  padding-right: 5rem;
+}
+.doc-box {
+  padding-right: 7rem;
+}
+
+.icons-wrapper p {
+  font-size: 0.rem;
+  font-weight: bolder;
+  padding-left: 1rem;
+  margin-bottom: 5rem;
+  letter-spacing: 3px;
+}
+.client-text{
+  padding: 2rem 2rem 4rem 2rem;
+}
+.sponsors{
+  padding-left: 5rem;
+  padding-right: 0rem;
+}
+.sponsors img{
+  width: 250px;
+  height: 100px;
+}
+
+.location{
+  padding-left: 2rem;
+}
+.map-text{
+  padding-left: 0rem;
+  
+}
+
+.map{
+  font-size: 15rem;
+  margin-left: 5rem;
+}
+.map-text .text{
+  padding-right: 2rem;
+
+}
+
+
+/* Tablet Display ECourses Page Style */
+.testing{
+  padding-bottom: 6rem;
+}
+.course-wrapper{
+  padding-left: 2rem;
+}
+hr{
+  display: block;
+  margin-left: 2rem;
+}
+.course-text{
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+
+/*  Tablet Display About Page Styles Start from here */
+
+.picture{
+  width: 800px;
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+.bio-para{
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+.partner-txt{
+  margin-left: 2rem;
+  line-height: 1.8;
+  margin-right: 2rem;
+}
+
+.about-last{
+  justify-content:space-evenly;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
 }
 
 
