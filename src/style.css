@@ -469,10 +469,44 @@ hr{
   margin-right: 5rem;
 }
 
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------ Tablet Display */
+
+@media screen and (max-width: 1024px){
 
 
-/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------ */
+  .logo{
+    display: none;
+  }
+  .nav-wrapper {
+    background-color: transparent;
+  }
+  .nav-text {
+    padding-left: 2rem;
+    
+  }
+  .why-text {
+    line-height: 1.9;
+    padding-left: 2rem;
+    text-align: left;
+    
+  }
+  .why-image {
+    display: block;
+    background-image: url(./images/computer-web.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100rem;
+    margin-top: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+  }
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------*/
 /* Dual Screen View Style...... */
+
 @media (max-width: 320px){
 
   .nav-wrapper {
@@ -773,182 +807,4 @@ footer span{
 }
 
 
-}
-
-
-/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Normal Screen View Style...... */
-
-@media (min-width: 321px) and (max-width: 480px){
-
-.logo{
-  display: none;
-  
-}
-.nav-list {
-  display: none;
-}
-.nav-wrapper {
-  position: fixed;
-  max-width: 480px;
-}
-.handBurger{
-  display: inline-block;
-  color: #ffffff;
-  font-size: 1.9rem;
-  padding-left: 12rem;
-}
-.nav-text{
-  padding-left: 2rem;
-  padding-right: 0rem;
-  padding-right: 6rem;
-}
-.nav-text h2{
-  font-size: 1.5rem;
-  line-height: 1.3;
-}
-
-/* Normal Screen Why Choose Us Stye start from here................ */
-.why-wrapper {
-  background-size: contain;
-  max-width: 480px;
-}
-.why-box {
-  display: flex;
-  flex-direction: column;
-}
-.why-text {
-  padding-top: 0.2rem;
-  padding-left: 2rem;
-}
-.why-choose-us {
-  color: #46c2e7;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-.we-are-small {
-  color: #eeeef0;
-  padding-bottom: 4rem;
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-.why-text a{
-  padding: 10px 15px;
-}
-.why-image {
-  display: block;
-  background-image: url(./images/computer-web.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 300px;
-  max-width: 440px;
-  background-color: #e9593d;
-  margin-top: 4rem;
-  margin-left: 1.2rem;
-  margin-bottom: 2rem;
-}
-/* Normal Screen What we do style start from here.......................... */
-
-.what-box {
-  background-size: contain;
-  max-width: 480px;
-  height: 1600px;
-  padding-top: 3rem;
-  padding-left: 2rem;
-  padding-right: 0rem;
-
-}
-.what .what-we-do {
-  padding-bottom: 2rem;
-  color: #46c2e7;
-  font-size: 1.3rem;
-}
-.what p {
-  font-size: 0.8rem;
-  line-height: 1.7;
-  padding-right: 4rem;
-  text-align: left;
-}
-.icons-wrapper {
-  display: flex;
-  justify-content:space-evenly;
-  flex-direction: column;
-  text-align: center;
-}
-.mark-camera {
-  margin-right: 0rem;
-}
-.icon1 {
-  margin-left: 10rem;
-  font-size: 2rem;
-  display: block;
-}
-.icon2 {
-  display: block;
-  margin-left: 10rem;
-  font-size: 2rem;
-}
-.icon3 {
-  display: block;
-  margin-left: 10rem;
-  font-size: 2rem;
-}
-.icon4 {
-  display: block;
-  margin-left: 10rem;
-  font-size: 2rem;
-}
-
-.mark-box {
-  padding-left: 0rem;
-  margin-bottom: 5rem;
-}
-.camera-box {
-  padding-left: 0rem;
-  margin-bottom: 5rem;
-}
-.comp-box {
-  padding-left: 0rem;
-  margin-bottom: 5rem;
-}
-.doc-box {
-  padding-left: 0rem;
-  margin-bottom: 5rem;
-}
-
-.icons-wrapper p {
-  
-  margin-left: 0rem;
-  
-  padding-right: 7rem;
-}
-.take-look {
-  margin-top: 2rem;
-  text-align: center;
-  margin-bottom: 7rem;
-}
-.take-look .h2 {
-  font-size: 1.7rem;
-  padding-right: 4rem;
-}
-.take-look .button {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  margin-top: 2rem;
-}
-.ecourse{
-  margin-top: 5rem;
-}
-.video{
-  margin-top: 3rem;
-}
-.take-look a {
-  color: #278ddf;
-  border: 3px solid #278ddf;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  margin-left: 0rem;
-  margin-right: 5rem;
-}
- 
 }
